@@ -34,3 +34,6 @@ case AND: ...
 (2) TA_CMD_GET_REE_TIME
 
 (3) TA_CMD_CALC_INSTRUCTION
+
+# Result
+![result](https://user-images.githubusercontent.com/81294928/123715332-a3dad680-d8aa-11eb-9ae2-1dcfadfcb2d4.png)
