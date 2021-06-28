@@ -36,4 +36,5 @@ case AND: ...
 (3) TA_CMD_CALC_INSTRUCTION
 
 # Result
-![result](https://user-images.githubusercontent.com/81294928/123715332-a3dad680-d8aa-11eb-9ae2-1dcfadfcb2d4.png)
+![result](https://user-images.githubusercontent.com/81294928/123715992-16988180-d8ac-11eb-912f-e48291924c5b.png)
+
