@@ -30,5 +30,7 @@ case AND: ...
 }
 ### 所以總共有三個 TA command:
 (1) TA_CMD_GET_SYSTEM_TIME
+
 (2) TA_CMD_GET_REE_TIME
+
 (3) TA_CMD_CALC_INSTRUCTION
