@@ -7,11 +7,14 @@
 1. 下 TA Command 跟 TA 要系統時間,TA 回傳過來後在視窗中輸出秒數跟毫秒數。
 系統時間要取得兩種:
 (1) REE 的時間 (格式為, 從 1970 年 1 月 1 號開始,到我們當下所經過的秒數跟毫秒數)
+
 (2) TEE 的時間 (格式為, QEMU 開機後,系統經過的秒數跟毫秒數)
+
 2. 傳送 Instruction (這裡是指計組的 machine code) 給 TA,TA 解析並計算後會回傳結果,輸出考
 慮兩種 instruction,每個都是 16 bit 長度 (包含 opcode, destination, source, value, flag, etc)
 我們要傳送下列兩種 instruction 給 TA,TA 的部分會再去解析
 (1) ADD:0001000011000011 → 3 + 3 = 6,回傳 6 給 CA (TA 會照著上面網頁的格式去解析)
+
 (2) Bitwise AND: 0101000111000010 → 7 & 2 = 2,回傳 2 給 CA
 (上面的 0001... 是二進位表示法,是 16 bits 的 integer,例如 0001000011000011 = 4291,所以
 CA 會傳送 4291 給 TA,TA 必須用 bitwise operation 解析這串數字的內容,格式在上面的網頁中
