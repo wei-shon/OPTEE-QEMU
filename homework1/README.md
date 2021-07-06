@@ -17,7 +17,7 @@
 (2) Bitwise AND 0101000111000010 7 & 2 = 2，回傳 2 給 CA
 (上面的 0001 是二進位表示法，是 16 bits 的 integer，例如 0001000011000011 = 4291，所以CA會傳送 4291 給 TA TA 必須用 bitwise operation 解析這串數字的內容，格式在上面的網頁中有，但是這邊我們先不考慮 register，直接當成數字操作就好，並且只需要考慮 source)
 ## TA：
-1. 接收到接收到 CA 請求系統時間，呼叫請求系統時間，呼叫 TEE Internal Core API 取得取得 TEE 跟跟 REE 的系統時間，並回傳的系統時間，並回傳結果 (會有一個資料結構會有一個資料結構 TEE_Time，可以參考，可以參考 API 的文件或去翻的文件或去翻 optee_os 的的 source code )
+1. 接收到接收到 CA 請求系統時間，呼叫請求系統時間，呼叫 TEE Internal Core API 取得取得 TEE 跟跟 REE 的系統時間，並回傳的系統時間，並回傳結果 (會有一個資料結構會有一個資料結構 TEE_Time，可以參考，可以參考 API 的文件或去翻的文件或去翻 optee_os 的 source code )
 2. 用用 bitwise operations 解析解析 CA 傳過來的傳過來的 instruction code，計算並回傳結果，計算並回傳結果
 
 # Result
