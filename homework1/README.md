@@ -11,6 +11,7 @@
 
 ### 2. 傳送 Instruction (這裡是指計組的 machine code) 給 TA TA 解析並計算後會回傳結果，輸出考慮兩種 instruction，每個都是 16 bit 長度 (包含 opcode, destination, source, value, flag, etc)(請先參考 https://justinmeiners.github.io/lc3-vm/，這是一個實作虛擬機的 project，會教我們如何解析instruction / machine code)
 我們要傳送下列兩種instruction 給 TA ， TA 的部分會再去解析
+
 (1) ADD 0001000011000011 3 + 3 = 6，回傳 6 給 CA (TA 會照著上面網頁的格式去解析 )
 
 (2) Bitwise AND 0101000111000010 7 & 2 = 2，回傳 2 給 CA
