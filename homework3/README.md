@@ -18,4 +18,4 @@ Decode: 將一記憶體位址和大小給 TA，TA根據內容進行解碼後CA�
 1. 排序結果
 2. 利用自己名字做base64 encode和decode
 
-![homwork3](https://user-images.githubusercontent.com/81294928/136702590-430d9f5b-07c1-42d6-80f3-60a25411800c.png)
+<img width="142" alt="homework3" src="https://user-images.githubusercontent.com/81294928/136702664-fe2c9f21-bd29-4cbc-98c2-bd0f8b2ef5dc.png">
